@@ -80,8 +80,8 @@ def addT(text,id,type,data):
     except: return False
 
 async def post_ch(type,text,path,js):
-        app = cl("GetAn", api_id = 9398500, api_hash = "ad2977d673006bed6e5007d953301e13", 
-             session_string = 'AgCPaOQAtC6wZ32JLWbozuGt8zsRFfivfWDnOZhDcgksuFOl-xBgioHZZ52mc9WsAel_im4LtVrarf2SWGvofowVAthWNAlGqd2bPItRIKOdExDYM8GAEVLraiGLSkclzoZvuwW_u04eXHLj-0rh-hB3hNTqEsyNwULZ4172pDy8PmZtyll3IJy-QwlHy0XNHuLLmV9OWlWyda2eXN7OY3mNS-xDHeDRlSsER69kbtf4IPoMp0wDVpmNLtGUVAXM5DbQ2HLNIC9gO5XsPRefbTkHAKLsRoKAjDGXXtH5wZGiFLLSR3oyHWzT9nPdA0kzZgZUQrlwRiyPLRxhGvXPjndWu6tEjgAAAAFNhSD4AA'
+        app = cl("GetAn", api_id = 22988799, api_hash = "9988946e0e68db0ba35bdb0ab3453d29", 
+             session_string = '1ApWapzMBu2rHZ_NaXQ6TfKsaiiYQoM_SeKI6xk49iXCbp473hxkraQDHgjRWV96JDqQPneFyVjyWnJo9Yosi16g1bdntrxsIgH31Fq9oVVW2_RdgZ92n9RWYn6gq9d8ZaC6kJCf9qaxcsufuTDdaEN3m9a2NckMmwPbB2FAUSwxNPAfhf8epmsuvxsmZsL449BRTxFNQiaW8kjaLvZI8M2yqpklxicnuvfKjSTqWr43W6xnfEaLQ1oLaKXSI_zyL4PH-Y3bczGl9CJggYSOQxP5kIQlzMgYp0MsFdsL403Oj86gMPVLZnb0ZtSxvJxRz_jsGi96v2rwP31ooDsrhdT00j3OwbxQ='
              )
         await app.start() 
         ch_id=-1001627036490
